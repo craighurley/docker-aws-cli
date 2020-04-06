@@ -1,9 +1,9 @@
-name: build-1
+name: build-2
 
 on:
   push:
     tags:
-      - '1*'
+      - '2*'
 
 jobs:
   build:
@@ -24,5 +24,5 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: ${{ env.DOCKER_REPOSITORY }}
-          path: ./versions/1/
-          tags: "latest,1,${{ env.RELEASE_VERSION }}"
+          path: ./versions/2/
+          tags: "2,${{ env.RELEASE_VERSION }}"
