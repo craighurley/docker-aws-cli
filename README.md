@@ -1,6 +1,7 @@
 # docker-aws-cli
 
-![Build and Publish to Docker Hub](https://github.com/craighurley/docker-aws-cli/workflows/Build%20and%20Publish%20to%20Docker%20Hub/badge.svg)
+![build latest](https://github.com/craighurley/docker-aws-cli/workflows/build%20latest/badge.svg)
+![build 1](https://github.com/craighurley/docker-aws-cli/workflows/build%1/badge.svg)
 
 Run `aws-cli` in a container.
 
