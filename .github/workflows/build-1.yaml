@@ -25,4 +25,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: ${{ env.DOCKER_REPOSITORY }}
           path: ./versions/1/
-          tags: "1,${{ env.RELEASE_VERSION }}"
+          tags: "latest,1,${{ env.RELEASE_VERSION }}"

@@ -1,6 +1,5 @@
 # docker-aws-cli
 
-![build latest](https://github.com/craighurley/docker-aws-cli/workflows/build%20latest/badge.svg)
 ![build 1](https://github.com/craighurley/docker-aws-cli/workflows/build%1/badge.svg)
 
 Run `aws-cli` in a container.
