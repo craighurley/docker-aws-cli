@@ -10,13 +10,13 @@ Run `aws-cli` in a container.
 ```sh
 # Set the AWS_PROFILE environment variable and pass it to the container
 AWS_PROFILE=example
-docker run --rm -it -v $HOME/.aws:/root/.aws:ro -v $PWD:/workdir:ro -e AWS_PROFILE craighurley/aws-cli
+docker run --rm -it -v $HOME/.aws:/root/.aws -v $PWD:/workdir:ro -e AWS_PROFILE craighurley/aws-cli
 ```
 
 Optional: create an alias for the container:
 
 ```sh
-alias aws-cli='docker run --rm -it -v $HOME/.aws:/root/.aws:ro -v $PWD:/workdir:ro -e AWS_PROFILE craighurley/aws-cli'
+alias aws-cli='docker run --rm -it -v $HOME/.aws:/root/.aws -v $PWD:/workdir:ro -e AWS_PROFILE craighurley/aws-cli'
 ```
 
 ## Versions
