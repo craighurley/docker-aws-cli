@@ -21,8 +21,8 @@ alias aws-cli='docker run --rm -it -v $HOME/.aws:/root/.aws:ro -v $PWD:/workdir:
 
 ## Versions
 
-- [1](./versions/1/CHANGELOG.md)
-- [2/latest](./versions/2/CHANGELOG.md)
+- [1](https://github.com/craighurley/docker-aws-cli/blob/master/versions/1/CHANGELOG.md)
+- [2/latest](https://github.com/craighurley/docker-aws-cli/blob/master/versions/2/CHANGELOG.md)
 
 ## Links
 
