@@ -1,5 +1,5 @@
 # Changelog
 
-## 2.0.6
+## 2.0.7
 
-- Initial release: awscli:2.0.6, amazonlinux:2
+- Initial release: awscli:2.0.7, amazonlinux:2
